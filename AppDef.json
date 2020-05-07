@@ -22,7 +22,6 @@
             "name": "GUI",
             "description": "Start desktop mode.",
             "parameters": {}
-            }
         }
     },
     "image": {
