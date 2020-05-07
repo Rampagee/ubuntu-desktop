@@ -169,4 +169,4 @@ ENTRYPOINT ["/etc/login.sh"]
 
 ADD ./banner.sh /etc/
 
-ADD ./README.txt /home/nimbix/Desktop/
+ADD ./README.txt /etc/
