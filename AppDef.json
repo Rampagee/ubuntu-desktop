@@ -1,7 +1,7 @@
 {
     "name": "Vitis AI 1.1 on U50",
     "description": "Xilinx Vitis AI 1.1 on Alveo U50",
-    "author": "Nimbix/Xilinx",
+    "author": "Xilinx",
     "licensed": true,
     "classifications": [
         "Software Development"
@@ -17,18 +17,11 @@
     ],
     "commands": {
         "GUI": {
-            "path": "/usr/local/bin/nimbix_desktop",
+            "path": "/etc/login.sh",
             "interactive": true,
             "name": "GUI",
-            "description": "Run a GUI command, and connect interactively directly from your web browser (requires Nimbix Desktop in image).",
-            "parameters": {
-                "command": {
-                    "name": "Command",
-                    "description": "Command to run",
-                    "type": "STR",
-                    "positional": true,
-                    "required": true
-                }
+            "description": "Start desktop mode.",
+            "parameters": {}
             }
         }
     },
