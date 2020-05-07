@@ -4,6 +4,7 @@ This Nimbix docker provide DPUv3E on Alveo card with Vitis AI 1.1. Please follow
   * open a terminal window
   * cd /data
   * git clone https://github.com/Xilinx/Vitis-AI.git
+  * From now, /data/Vitis-AI will be your working directory, and any modification to the content of this directory will not loss even if you shutdown the Nimbix docker.
 
 2. Try VART example
   Please refer to https://github.com/Xilinx/Vitis-AI/blob/master/VART/README.md for instruction. Please note you are already in CPU docker when you see this, so no need to start docker again.
