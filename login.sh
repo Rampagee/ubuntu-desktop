@@ -11,4 +11,6 @@ echo "export LD_LIBRARY_PATH=/opt/xilinx/xrt/lib:/usr/lib:/usr/lib/x86_64-linux-
 
 echo "/etc/banner.sh" >> /home/$USER/.bashrc
 
+/usr/local/bin/nimbix_desktop
+
 exit 0
