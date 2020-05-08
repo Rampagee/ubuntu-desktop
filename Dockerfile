@@ -63,7 +63,8 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
         libunwind-dev \
         libtool\
         openssh-client \
-        libjson-c-dev
+        libjson-c-dev \
+        gedit
 
 # add libgest-dev and libjson-c-dev per request from chunye to facilicate build vitis-ai-lib in the docker container
 RUN apt-get -y install libgtest-dev; cd /usr/src/gtest;mkdir build;cd build && cmake .. &&make && make install
