@@ -67,7 +67,8 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
         libavcodec-dev \
         libavformat-dev \
         libavdevice-dev \
-        libjson-c-dev
+        libjson-c-dev \
+        gedit
 
 RUN apt-get -y install libgtest-dev; cd /usr/src/gtest;mkdir build;cd build && cmake .. &&make && make install
 
