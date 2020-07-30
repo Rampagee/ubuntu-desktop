@@ -13,6 +13,8 @@ echo "export INTERNAL_BUILD=1">> /home/$USER/.bashrc
 echo "export LIBRARY_PATH=/usr/local/lib">> /home/$USER/.bashrc
 echo "export LD_LIBRARY_PATH=/opt/xilinx/xrt/lib:/usr/local/lib:/usr/lib:/usr/lib/x86_64-linux-gnu:/opt/vitis_ai/conda/envs/vitis-ai-tensorflow/lib">> /home/$USER/.bashrc
 
+source /etc/overlay_settle.sh
+
 mkdir -p /home/$USER/Desktop
 cp -p /etc/README.txt /home/$USER/Desktop
 /usr/local/bin/nimbix_desktop
