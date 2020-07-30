@@ -156,3 +156,5 @@ ENTRYPOINT ["/etc/login.sh"]
 ADD ./banner.sh /etc/
 
 ADD ./README.txt /etc/
+
+ADD ./overlay_settle.sh /etc/
