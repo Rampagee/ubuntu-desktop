@@ -68,6 +68,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
         libavformat-dev \
         libavdevice-dev \
         libjson-c-dev \
+        gtk2-engines-pixbuf \
         gedit
 
 RUN apt-get -y install libgtest-dev; cd /usr/src/gtest;mkdir build;cd build && cmake .. &&make && make install

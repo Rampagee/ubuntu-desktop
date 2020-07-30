@@ -1,3 +1,8 @@
+sudo wget https://www.xilinx.com/bin/public/openDownload?filename=alveo_xclbin-1.2.1.tar.gz -O alveo_xclbin-1.2.1.tar.gz
+sudo tar xfz alveo_xclbin-1.2.1.tar.gz
+sudo rm alveo_xclbin-1.2.1.tar.gz
+
+
 detected=0
 /opt/xilinx/xrt/bin/xbutil scan | grep xilinx_u50_
 if [ $? -eq 0 ]; then

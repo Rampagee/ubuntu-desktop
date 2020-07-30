@@ -19,6 +19,6 @@ cp -p /etc/README.txt /home/$USER/Desktop
 mkdir -p /home/$USER/Desktop
 cp -p /etc/README.txt /home/$USER/Desktop
 
-sudo source /etc/overlay_settle.sh
+source /etc/overlay_settle.sh
 
 exit 0
