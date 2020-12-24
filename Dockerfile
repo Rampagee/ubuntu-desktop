@@ -318,6 +318,10 @@ RUN apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /scratch/*
 
+RUN cd /scratch \
+    && wget https://www.xilinx.com/bin/public/openDownload?filename=alveo_xclbin-1.3.0.tar.gz -O alveo_xclbin-1.3.0.tar.gz \
+    && tar xfz alveo_xclbin-1.3.0.tar.gz \
+    && rm alveo_xclbin-1.3.0.tar.gz 
 
 ADD ./login.sh /etc/
 ENTRYPOINT ["/etc/login.sh"]

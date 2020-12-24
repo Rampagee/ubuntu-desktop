@@ -39,4 +39,9 @@ if [ -f /tmp/.Xauthority ]; then
     chown $UID:vitis-ai-users /home/$USER/.Xauthority
 fi
 
+source /opt/xilinx/xrt/setup.sh
+
 source /etc/banner.sh
+
+source /etc/overlay_settle.sh
+
