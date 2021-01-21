@@ -136,7 +136,7 @@ RUN pip3 install \
         wheel
 
 # Install XRT
-RUN wget --progress=dot:mega -O xrt.deb https://www.xilinx.com/bin/public/openDownload?filename=xrt_202020.2.8.726_18.04-amd64-xrt.deb \
+RUN wget --progress=dot:mega -O xrt.deb https://www.xilinx.com/bin/public/openDownload?filename=xrt_202020.2.8.743_18.04-amd64-xrt.deb \
     && ls -lhd ./xrt.deb \
     && apt-get update -y \
     && apt-get install -y ./xrt.deb \
