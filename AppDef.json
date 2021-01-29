@@ -1,6 +1,6 @@
 {
-    "name": "Vitis AI 1.3 on Alveo HBM",
-    "description": "Xilinx Vitis AI 1.3 on Alveo U50/U280",
+    "name": "Vitis AI 1.3 on Alveo",
+    "description": "Xilinx Vitis AI 1.3 on Alveo U50/U280/U200/U250",
     "author": "Xilinx",
     "licensed": true,
     "classifications": [
